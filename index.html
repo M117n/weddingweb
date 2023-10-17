@@ -470,28 +470,30 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-<script>
-    // Para configurar una fecha específica (24 de noviembre del 2023 a las 15:30:00)
-    simplyCountdown('.simply-countdown-one', {
-        year: 2023,
-        month: 11, // Los meses son 1-indexados en este script
-        day: 24,
-        hours: 15,
-        minutes: 30,
-        seconds: 0
-    });
-
-    // Si también quieres hacer lo mismo para el jQuery example:
-    $('#simply-countdown-losange').simplyCountdown({
-        year: 2023,
-        month: 11, // Los meses son 1-indexados en este script
-        day: 24,
-        hours: 15,
-        minutes: 30,
-        seconds: 0,
-        enableUtc: true // Puedes habilitar o deshabilitar UTC según lo necesites
-    });
-</script>
+	<script>
+		// Para configurar una fecha específica (24 de noviembre del 2023 a las 22:30:00 UTC)
+		simplyCountdown('.simply-countdown-one', {
+			year: 2023,
+			month: 11, // Los meses son 1-indexados en este script
+			day: 24,
+			hours: 22,
+			minutes: 30,
+			seconds: 0,
+			enableUtc: true // Mantenido en true para UTC
+		});
+	
+		// Si también quieres hacer lo mismo para el jQuery example:
+		$('#simply-countdown-losange').simplyCountdown({
+			year: 2023,
+			month: 11, // Los meses son 1-indexados en este script
+			day: 24,
+			hours: 22,
+			minutes: 30,
+			seconds: 0,
+			enableUtc: true // Mantenido en true para UTC
+		});
+	</script>
+	
 
 
 	</body>
