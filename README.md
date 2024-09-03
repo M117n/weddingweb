@@ -14,6 +14,7 @@ This project is a custom wedding website built using HTML, CSS, JavaScript, and 
   ```bash
    git clone https://github.com/M117n/weddingweb.git
   ```
+
 2. Navigate to the project directory:
  ```bash
    cd weddingweb
