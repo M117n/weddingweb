@@ -1,6 +1,6 @@
 # Wedding Website
 
-This project is a custom wedding website built using HTML, CSS, JavaScript, and SCSS. It serves as a personal webpage for sharing wedding details, galleries, and event information.
+This is a custom wedding website built using HTML, CSS, JavaScript, and SCSS. It serves as a personal webpage for sharing wedding details, galleries, and event information.
 
 ## Features
 
